@@ -1,6 +1,45 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.container {
+    width: 80%;
+    margin: auto;
 }
 
+
+.banner-login {
+    margin-top: 3%;
+    margin-left: 40%;
+    height: 550px;
+    background-size: cover;
+}
+
+
+.banner-login .container {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-login {
+    color: rgb(206, 36, 44);
+}
+
+
+.banner-login .card {
+    background-color: #E5E5E5;
+    height: 100vh;
+    width: 38vw;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+span {
+
+        display: flex;
+        flex-direction: column;
+    
+    
+}
