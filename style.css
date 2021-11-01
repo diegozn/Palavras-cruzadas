@@ -1,3 +1,5 @@
+
+
 .container {
     width: 80%;
     margin: auto;
@@ -13,33 +15,45 @@
 
 
 .banner-login .container {
-    height: 800px;
+    height: 215%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .banner-login {
-    color: rgb(206, 36, 44);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
 
 
 .banner-login .card {
     background-color: #E5E5E5;
-    height: 100vh;
-    width: 38vw;
+    height: 130vh;
+    width: 40vw;
     display: flex;
     justify-content: center;
     
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
 span {
 
         display: flex;
         flex-direction: column;
+        padding-left: 12px;
+       
     
-    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    color: black;
+    font-weight: bold;
 }
