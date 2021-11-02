@@ -3,7 +3,7 @@
 function cruzadinha(){
     var palavra1 = (td_massa_m.value + td_massa_e.value + td_massa_m.value + td_massa_o.value + td_massa_r.value + td_massa_i7_i + td_massa_ula_a.value + td_massa_d.value + td_massa_e.value + td_massa_m.value + td_massa_adres_a + td_data_massa_s + td_massa_s + td_flash_massa_a).toUpperCase();
     var palavra2 = (td_dma_d.value + td_dma_massa_m.value + td_dma_a.value).toUpperCase();
-    var palavra3 = ().toUpperCase();
+    var palavra3 = (td_dual_d.value + td_dual_u.value + td_dual_a + td_dual_l.value + td_dual_c.value + td_eprom_dual_o.value + td_dual_r.value + td_dual_adres_e.value).toUpperCase();
     var palavra4 = (td_dual_d.value + td_dual_u.value + td_dual_a.value + td_dual_l.value + td_dual_c.value + td_eprom_dual_o.value + td_dual_r.value + td_dual_adres_e.value ).toUpperCase();
     var palavra5 = (td_massa_i7_i.value + td_I7_7.value).toUpperCase();
     var palavra6 = (td_cpu_ula_u.value + td_ula_l.value + td_massa_ula_a ).toUpperCase();
@@ -17,7 +17,15 @@ function cruzadinha(){
     var palavra14 = (td_rom_r.value + td_rom_quad_o.value + td_rom_quad_o.value).toUpperCase();
     var palavra15 = (td_regis_r_1.value + td_regis_quad_e.value + td_regis_g.value + td_regis_i5_i.value  + td_regis_s.value  + td_regis_t.value  + td_regis_r.value  + td_regis_a.value  + td_regis_d.value  + td_regis_o.value  + td_regis_r_2.value  + td_regis_e.value  + td_regis_s.value ).toUpperCase();
     var palavra16 = (td_regis_i5_i.value + td_i5_5.value).toUpperCase();
-    
+    var palavra17 = (td_massa_m.value) ;
+     
+    if ( td_massa_m.value == 'm') {
+        console.log('acertou')
+        
+    } else {
+        console.log('errou')
+    }
+
     if (palavra3 == "QUADCORE"){
 
         msg.innerHTML += "Palavra 1: Quadcore<br>"
@@ -44,6 +52,7 @@ function cruzadinha(){
         msg.innerHTML += "Palavra 4: cpu<br>"
     }else{
         validacao_incorreta()
+        console.log("erro na FDJDFJH")
     }
 
     if(palavra8 == "DUALCORE"){
@@ -105,8 +114,10 @@ function cruzadinha(){
     }
 
     if(palavra14 == "ROM"){
+        validacao_correta()
         msg.innerHTML += "Palavra 15: rom<br>"
     }else{
+        validacao_incorreta()
         console.log("erro na rom")
     }
 
@@ -119,6 +130,16 @@ function cruzadinha(){
 
 }
 
+
+function validacao_correta() {
+    
+  
+    
+}
+
 function validacao_incorreta() {
 
+  
+
 }
+
