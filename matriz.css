@@ -11,4 +11,7 @@
     
 }
 
-
+input {
+    text-transform: uppercase;
+}
+/* ok */
