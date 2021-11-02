@@ -221,6 +221,7 @@ function cruzadinha(){
         td_data_massa_s.style = "background-color: green"
         td_massa_s.style = "background-color: green"
         td_flash_massa_a.style = "background-color: green"
+        
 
         
         msg.innerHTML += "Palavra 9: memória de massa<br>"
@@ -240,6 +241,7 @@ function cruzadinha(){
         td_data_massa_s.style = "background-color: red"
         td_massa_s.style = "background-color: red"
         td_flash_massa_a.style = "background-color: red"
+       
 
 
         console.log("erro na memoria de massa")
