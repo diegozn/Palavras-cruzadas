@@ -81,7 +81,7 @@ function cruzadinha(){
         td_regis_a.style = "background-color: green"
         td_regis_d.style = "background-color: green"
         td_regis_o.style = "background-color: green"
-        td_regis_r.style = "background-color: green"
+        td_regis_r_2.style = "background-color: green"
         td_regis_e.style = "background-color: green"
         td_regis_s.style = "background-color: green"
         
@@ -101,7 +101,7 @@ function cruzadinha(){
         td_regis_a.style = "background-color: red"
         td_regis_d.style = "background-color: red"
         td_regis_o.style = "background-color: red"
-        td_regis_r.style = "background-color: red"
+        td_regis_r_2.style = "background-color: red"
         td_regis_e.style = "background-color: red"
         td_regis_s.style = "background-color: red"
 
@@ -248,51 +248,136 @@ function cruzadinha(){
     if(palavra5 == "I7"){
         
         msg.innerHTML += "Palavra 10: i7 <br>"
+
+        td_massa_i7_i.style = "background-color: green"
+        td_I7_7.style = "background-color: green"
+        
     }else{
+        td_massa_i7_i.style = "background-color: red"
+        td_I7_7.style = "background-color: red"
         console.log("erro no i7")
     }
 
     if(palavra2 == "DMA"){
+
+        td_dma_d.style = "background-color: green"
+        td_dma_massa_m.style = "background-color: green"
+        td_dma_a.style = "background-color: green"
         
         msg.innerHTML += "Palavra 11: dma <br>"
     }else{
+        
+        td_dma_d.style = "background-color: red"
+        td_dma_massa_m.style = "background-color: red"
+        td_dma_a.style = "background-color: red"
+
         console.log("erro na dma")
     }
 
     if(palavra10 == "RAM"){
         
+        td_ram_r.style = "background-color: green"
+        td_data_ram_a.style = "background-color: green"
+        td_ram_m.style = "background-color: green"
+
+
         msg.innerHTML += "Palavra 12: ram <br>"
     } else {
+
+        td_ram_r.style = "background-color: red"
+        td_data_ram_a.style = "background-color: red"
+        td_ram_m.style = "background-color: red"
+
         console.log("erro na ram")
     }
 
     if(palavra13 == "FLASH"){
         
+        td_flash_f.style= "background-color: green"
+        td_flash_l.style= "background-color: green"
+        td_flash_massa_a.style =  "background-color: green"
+        td_flash_s.style = "background-color: green"
+        td_flash_h.style = "background-color: green"
+
+
+
         msg.innerHTML += "Palavra 13: flash <br>"
     }else{
+
+        td_flash_f.style= "background-color: red"
+        td_flash_l.style= "background-color: red"
+        td_flash_massa_a.style = "background-color: red"
+        td_flash_s.style = "background-color: red"
+        td_flash_h.style = "background-color: red"
         console.log("erro na flash")
     }
 
     if(palavra11 == "ADRESBUSS"){
+
+        td_massa_adres_a.style = "background-color: green"
+        td_adres_d.style =  "background-color: green"
+        td_adres_r.style = "background-color: green"
+        td_dual_adres_e.style = "background-color: green"
+        td_adres_s_1.style = "background-color: green"
+        td_adres_b.style = "background-color: green"
+        td_adres_u.style = "background-color: green"
+        td_adres_s_2.style = "background-color: green"
+        td_adres_s_3.style = "background-color: green"
+
+
+
+
+
         
         msg.innerHTML += "Palavra 14: adresbuss <br>"
     }else{
+
+        td_massa_adres_a.style = "background-color: red"
+        td_adres_d.style =  "background-color: red"
+        td_adres_r.style = "background-color: red"
+        td_dual_adres_e.style = "background-color: red"
+        td_adres_s_1.style = "background-color: red"
+        td_adres_b.style = "background-color: red"
+        td_adres_u.style = "background-color: red"
+        td_adres_s_2.style = "background-color: red"
+        td_adres_s_3.style = "background-color: red"
+
+
         console.log("erro na adresbuss")
     }
 
     if(palavra14 == "ROM"){
-        
+        td_rom_r.style = "background-color: green"
+        td_rom_quad_o.style = "background-color: green"
+        td_rom_quad_m.style = "background-color: green"
+
+
         msg.innerHTML += "Palavra 15: rom <br>"
     }else{
+
+        td_rom_r.style = "background-color: red"
+        td_rom_quad_o.style = "background-color: red"
+        td_rom_quad_m.style = "background-color: red"
+        
 
        
         console.log("erro na rom")
     }
 
     if(palavra6 == "ULA"){
+        td_cpu_ula_u.style = "background-color: green"
+        td_ula_l.style = "background-color: green"
+        td_massa_ula_a.style  = "background-color: green"
        
         msg.innerHTML += "Palavra 16: ula <br>"
+      
     }else{
+
+        td_cpu_ula_u.style = "background-color: red"
+        td_ula_l.style = "background-color: red"
+        td_massa_ula_a.style  = "background-color: red"
+        
+
         console.log("erro na ula")
     }
     
