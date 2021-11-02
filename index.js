@@ -25,6 +25,7 @@ function cruzadinha(){
         msg.innerHTML += "Palavra 1: DUALCORE<br>"
     }else{
         console.log("erro na  quadcore")
+        input.style.background = "green"
 
     } 
 
@@ -130,6 +131,7 @@ function cruzadinha(){
 
 function validacao_correta() {
     
+    I
   
     
 }
