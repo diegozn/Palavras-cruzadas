@@ -14,4 +14,35 @@
 input {
     text-transform: uppercase;
 }
-/* ok */
+
+table {
+   margin-left: 10%;
+   padding-bottom: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow: hidden;
+
+}
+
+button {
+
+    background: #0066A2;
+    
+    color: white;
+    
+    border-style: outset;
+    
+    border-color: #0066A2;
+    
+    height: 50px;
+    
+    width: 100px;
+    
+    cursor: pointer;
+    
+    text-shadow:none;
+
+    
+    }

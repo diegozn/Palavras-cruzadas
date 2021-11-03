@@ -30,7 +30,7 @@ function cruzadinha(){
         td_dual_r.style = "background-color: green;"
         td_dual_adres_e.style = "background-color: green;"
 
-        msg.innerHTML += "Palavra 1: DUALCORE<br>"
+       
     }else{
 
         td_dual_d.style = "background-color: red;"
@@ -56,7 +56,7 @@ function cruzadinha(){
         td_eprom_dual_o.style = "background-color: green"
         td_eprom_m.style = "background-color: green"
         
-        msg.innerHTML += "Palavra 2: EPROM <br>"
+       
     }else{
 
         td_massa_eprom_e.style = "background-color: red"
@@ -88,7 +88,7 @@ function cruzadinha(){
 
 
        
-        msg.innerHTML += "Palavra 3: registradores <br>"
+       
     }else{
 
         td_regis_r_1.style = "background-color: red"
@@ -115,7 +115,7 @@ function cruzadinha(){
         td_cpu_ula_u.style = "background-color: green"
 
         
-        msg.innerHTML += "Palavra 4: CPU <br>"
+      
     }else{
 
         td_cpu_c.style = "background-color: red"
@@ -137,7 +137,7 @@ function cruzadinha(){
         td_regis_quad_e.style = "background-color: green" 
 
      
-        msg.innerHTML += "Palavra 5: QUADCORE <br>"
+      
     }else{
 
         td_quad_q.style =  "background-color: red"
@@ -157,7 +157,7 @@ function cruzadinha(){
         td_cs_c.style = "background-color: green" 
         td_regis_cs_s.style = "background-color: green" 
 
-        msg.innerHTML += "Palavra 6: CS <br>"
+       
     }else{
 
         td_cs_c.style = "background-color: red" 
@@ -172,7 +172,7 @@ function cruzadinha(){
         td_i5_5.style =  "background-color: green" 
 
         
-        msg.innerHTML += "Palavra 7: i5 <br>"
+       
     }else{
         
         td_regis_i5_i.style = "background-color: red"
@@ -191,7 +191,7 @@ function cruzadinha(){
         td_data_massa_s.style = "background-color: green"
 
         
-        msg.innerHTML += "Palavra 8: databus<br>"
+      
     }else{
 
         td_data_d.style = "background-color: red"
@@ -224,7 +224,7 @@ function cruzadinha(){
         
 
         
-        msg.innerHTML += "Palavra 9: memória de massa<br>"
+      
     }else{
 
         td_massa_m.style = "background-color: red"
@@ -249,7 +249,7 @@ function cruzadinha(){
 
     if(palavra5 == "I7"){
         
-        msg.innerHTML += "Palavra 10: i7 <br>"
+       
 
         td_massa_i7_i.style = "background-color: green"
         td_I7_7.style = "background-color: green"
@@ -283,7 +283,7 @@ function cruzadinha(){
         td_ram_m.style = "background-color: green"
 
 
-        msg.innerHTML += "Palavra 12: ram <br>"
+       
     } else {
 
         td_ram_r.style = "background-color: red"
@@ -303,7 +303,6 @@ function cruzadinha(){
 
 
 
-        msg.innerHTML += "Palavra 13: flash <br>"
     }else{
 
         td_flash_f.style= "background-color: red"
@@ -331,7 +330,7 @@ function cruzadinha(){
 
 
         
-        msg.innerHTML += "Palavra 14: adresbuss <br>"
+       
     }else{
 
         td_massa_adres_a.style = "background-color: red"
@@ -354,7 +353,7 @@ function cruzadinha(){
         td_rom_quad_m.style = "background-color: green"
 
 
-        msg.innerHTML += "Palavra 15: rom <br>"
+       
     }else{
 
         td_rom_r.style = "background-color: red"
@@ -371,7 +370,7 @@ function cruzadinha(){
         td_ula_l.style = "background-color: green"
         td_massa_ula_a.style  = "background-color: green"
        
-        msg.innerHTML += "Palavra 16: ula <br>"
+        
       
     }else{
 
@@ -386,17 +385,3 @@ function cruzadinha(){
 
 }
 
-
-function validacao_correta() {
-
-   
-    
-}
-
-function validacao_incorreta() {
-
-    
-
-
-
-}   
